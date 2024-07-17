@@ -143,7 +143,7 @@ local function enableNotifier(fruit)
 		if (lang == "pt-br") then
 			notifier.Text = fruit_name .. " encontrada a: " .. math.floor((local_player.Character:WaitForChild("UpperTorso").Position - fruit_child.Position).Magnitude * 0.15) .. 'm'
 		else 
-			notifier.Text = fruit_name .. " found at: " .. math.floor((local_player.Character:WaitForChild("UpperTorso").Position - fruit_child.Position).Magnitude * 0.15) .. "m away"
+			notifier.Text = fruit_name .. " DETECTED: " .. math.floor((local_player.Character:WaitForChild("UpperTorso").Position - fruit_child.Position).Magnitude * 0.15) .. "m away"
 		end
 
 		task.wait(0.2)
