@@ -101,7 +101,7 @@ local function enableNotifier(fruit)
 	if (lang == "pt-br") then
 		fruit_name = "Uma fruta"
 	else
-		fruit_name = "A fruit"
+		fruit_name = "FRUIT"
 	end
 
 	-- Fruit hasn't a position but it's children has
